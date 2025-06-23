@@ -1,81 +1,81 @@
 html {
-                background-color: rgb(245, 216, 223);
-                display: flex;
-                justify-content: center;
-            }
+    background-color: rgb(245, 216, 223);
+    display: flex;
+    justify-content: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
 
-            body {
-                background-color: rgb(240, 206, 211);
-                width: 800px;
-                padding: 40px;
-                border: 3px solid rgb(230, 131, 147);
-                border-radius: 15px;
-            }
+body {
+    background-color: rgb(240, 206, 211);
+    width: 800px;
+    padding: 40px;
+    border: 3px solid rgb(230, 131, 147);
+    border-radius: 15px;
+}
 
-            div{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                padding: 15px;
-            }
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
 
-            h1, h2 {
-                color: rgb(206, 48, 101);
-                text-align: center;
+h1, h2 {
+    color: rgb(206, 48, 101);
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+}
 
-            }
+p {
+    font-size: 20px;
+    text-align: justify;
+    width: 70%;
+}
 
-            p {
-                font-size: 20px;
-                text-align: justify;
-                width: 70%;
-            }
+#mensagem{
+    display: none;
+    text-align: center;
+}
 
-            #mensagem{
-                display: none;
-                text-align: center;
-            }
+ul {
+    margin-top: 0px;
+}
 
+li {
+    font-size: 17px;
+    margin: 10px;
+    list-style: square;
+}
 
-            ul {
-                margin-top: 0px;
-            }
+img {
+    border-radius: 20px;
+}
 
-            li {
-                font-size: 17px;
-                margin: 10px;
-                list-style: square;
-            }
+table {
+    background-color: rgb(241, 223, 232);
+    padding: 20px;
+    border: 2px solid rgb(230, 131, 147);
+    border-radius: 15px;
+}
 
-            img {
-                border-radius: 20px;
-            }
+td {
+    border: 1px solid rgb(230, 131, 147);
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
 
-            table {
-                background-color: rgb(241, 223, 232);
-                padding: 20px;
-                border: 2px solid rgb(230, 131, 147);
-                border-radius: 15px;
-            }
+.img-paises {
+    width: 200px;
+    height: 100px;
+}
 
-            td {
-                border: 1px solid rgb(230, 131, 147);
-                padding: 10px;
-                text-align: center;
-                border-radius: 15px;
-            }
+a {
+    color: rgb(190, 29, 62);
+    font-size: 17px;
+}
 
-            .img-paises {
-                width: 200px;
-                height: 100px;
-            }
-
-            a {
-                color: rgb(190, 29, 62);
-                font-size: 17px;
-            }
-
-            a:hover{
-                color: rgb(219, 28, 140);
-            }
+a:hover{
+    color: rgb(219, 28, 140);
+}
